@@ -1,0 +1,55 @@
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:active {
+	color: gray;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+.article-box {
+	margin-top: 50px;
+	border: solid 1px;
+	border-radius: 10px;
+	width: 700px;
+	height: 500px;
+}
+.container {
+	margin-top: 50px;
+	padding: 10px;
+	background-color: blue;
+	width: 501px;
+	height: 200px;
+	border-radius: 15px;
+}
+
+.links {
+	margin-right: auto;
+	display: inline-block;
+	background-color: white;
+	width: 245px;
+	height: 200px;
+
+}
+
+.articles {
+	display: inline-block;
+	border: solid 2px;
+	background-color: white;
+	width: 245px;
+	height: 200px;
+	margin-left: auto;
+}
+
+
