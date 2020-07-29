@@ -14,22 +14,23 @@ a:active {
 	color: gray;
 }
 
+h1 {
+	margin-top: 0;
+}
+
 h2 {
 	text-decoration: underline;
 }
 
-.article-box {
-	margin-top: 50px;
-	border: solid 1px;
-	border-radius: 10px;
-	width: 700px;
-	height: 500px;
+#title {
+	text-decoration: underline; 
 }
+
 .container {
-	margin-top: 50px;
+	margin: 60px 60px 10px 60px;
 	padding: 10px;
-	background-color: blue;
-	width: 501px;
+	background-color:#00CCFF;
+	width: 495px;
 	height: 200px;
 	border-radius: 15px;
 }
@@ -40,16 +41,28 @@ h2 {
 	background-color: white;
 	width: 245px;
 	height: 200px;
-
 }
 
 .articles {
 	display: inline-block;
-	border: solid 2px;
 	background-color: white;
+	border: solid 1px;
+	margin:  15px;
+	padding: 25px;
 	width: 245px;
 	height: 200px;
-	margin-left: auto;
+}
+
+.article-box {
+	width: 660px;
+	height: 570px;
+	border: solid 1px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.blue {
+	background: #00CCFF;
 }
 
 
